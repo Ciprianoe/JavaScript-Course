@@ -1,0 +1,166 @@
+/*document.write("<h1>Hello World!!</h1>"); */
+
+
+/* tipos de dato */
+
+"CADENA DE CARACATERES" // String
+'STRING' //String
+
+10000000 // number
+
+
+true  // boolean
+false
+
+// array
+['joe', 'ryan', 'marta']
+[1 , 2 , 3]
+[true, false, true]
+
+
+//Object
+
+
+{
+    "username":'ryan',
+    "score": 70.4,
+    "hours": 14,
+    "pro": true,
+    "friends": ['joe', 'ryan', 'marta']
+}
+
+{
+    "username":'joe',
+    "score": 0.4,
+    "hours": 1,
+    "pro": false,
+    "friends": ['joe', 'marta']
+}
+
+
+
+// variables 
+
+son nombres que le damos a ciertos datos para almacenarlos en memoria y luego utilizarlos 
+
+let username = "joe";
+var lastname = "carter";
+const pi = 3.14;
+
+
+console.log(username + " " + lastname + " " + pi);
+
+
+
+// operadores
+
+//let numberOne = 100;
+//let nomberTwo = 900;
+//var result = numberOne + nomberTwo;
+
+var passwordDb = 'pepe1223';
+
+let result = numberOne >= nomberTwo ;
+
+console.log(result);
+
+/* let name = "joe";
+let lastName = "carter";
+
+let nameFull = name + ' '+ lastName ;
+
+console.log(nameFull); */
+
+
+// condicionales o control de flujo 
+
+
+let parserPass = 'pepe1223';
+
+var passwordDb = 'pepe1223';
+
+let result = parserPass == passwordDb ;
+
+
+if (result)  {
+    console.log(" password correcto");
+} else {
+    console.log(" password incorrecto"); 
+}
+
+let typeCard = 'CSDASDASD';
+
+
+switch(typeCard) {
+
+    case 'Debit Card' :
+        console.log('I`ts a debit card');
+        break;
+
+    case 'Credit Card': 
+         console.log('I`ts a credit card');
+        break;   
+
+    default: 
+        console.log("NOT CARD");
+        break;    
+}
+
+
+// BUCLESSS ITERADORES 
+
+
+let count = 50;
+while (count > 0){
+    console.log(count);
+    count -- ;
+}
+
+
+
+let names =  ['Ryan', 'Kendra', 'Sofia','Mariot'];
+
+
+console.log(names.length);
+
+
+let names =  ['Ryan', 'Kendra', 'Sofia','Mariot'];
+
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
+
+let names =  ['Ryan', 'Kendra', 'Sofia','Mariot'];
+
+for (let i = names.length -1; i >= 0; i--) {
+    console.log(names[i]);
+}
+
+
+let names =  [1, 2, 3,4];
+
+for (let i = names.length -1; i >= 0; i--) {
+    console.log(names[i]);
+}
+
+
+
+
+// funciones definir un comportamiento o tarea y poder utilizarlo reutilizarlo 
+
+function greeting(name){
+    //console.log(name); 
+    console.log('hello' + name);
+ }
+
+ // running 
+ greeting('NAME');
+
+
+ function add(num1, num2){
+    //console.log(name); 
+    console.log(num1 + num2);
+ }
+
+ // running 
+ add(100,300);
